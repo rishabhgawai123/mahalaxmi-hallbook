@@ -1,0 +1,105 @@
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Smaller font size for mobile */
+  }
+}
+
+
+
+body {
+    
+    margin: 0;
+    padding: 20px;
+    background-color: hsl(240, 13%, 65%);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color:  rgb(11, 6, 6);
+    font-family: cursive;
+  }
+  
+  #booking-form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #availability-result {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+
+
+
+
+
+
+  .footer p {
+    margin: 0; /* Remove extra margins */
+  }
+  
+  
+
+  
+   .logo-container {
+    text-align: center;
+    margin-bottom: 20px; /* Spacing between logo and form */
+  }
+  
+  .logo {
+    max-width: 120px; /* Small logo */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+h2{
+  color: #100b0b;
+}
+
+
+
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 100px;
+  font-family: 'Playfair Display', serif;
+  color: #0a0a0a5d;
+  font-style: italic;
+  
+}
+
+@media (max-width: 768px) {
+  footer {
+    font-size: 12px;
+  }
+}
