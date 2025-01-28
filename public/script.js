@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Fetch booking information for the selected date
-    fetch(`/api/bookings/${date}`)
+    fetch(`http://localhost:3000/api/bookings/${date}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch booking details');
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const formData = new FormData(bookForm);
     const data = Object.fromEntries(formData.entries());
-    fetch('/api/book', {
+    fetch('http://localhost:3000/api/book', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
