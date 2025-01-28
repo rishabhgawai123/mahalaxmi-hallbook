@@ -13,7 +13,7 @@
   
       if (!date) {
         alert('Please select a date');
-        return;
+        return;git
       }
   
       // Fetch booking information for the selected date
