@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 
 /*
 =======
->>>>>>> f8975482f9b99c4aaca0e1bd40c860de6b3f3820
+
 // Importing necessary libraries
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -172,6 +172,3 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 module.exports = app; // Required for Vercel
-
-=======
->>>>>>> f8975482f9b99c4aaca0e1bd40c860de6b3f3820
