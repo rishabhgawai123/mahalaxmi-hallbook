@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // Fetch booking information for the selected date
-    fetch(`/https://mahalaxmi-hallbook-ddr6dhr8y-rishabhs-projects-26837649.vercel.app/api/bookings/${date}`)
+    fetch(`/api/bookings/${date}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch booking details');
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const formData = new FormData(bookForm);
     const data = Object.fromEntries(formData.entries());
-    fetch('/api/book', {
+    fetch('http://localhost:3000/api/book', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
