@@ -67,7 +67,7 @@
         })
         .catch(err => {
           alert(`Error: ${err.message}`);
-        });
+        }); 
     });
   });
   
@@ -89,9 +89,11 @@ document.addEventListener('DOMContentLoaded', () => {
       alert('Please select a date');
       return;
     }
+    
+
 
     // Fetch booking information for the selected date
-    fetch(`/api/bookings/${date}`)
+    fetch(`/https://mahalaxmi-hallbook-ddr6dhr8y-rishabhs-projects-26837649.vercel.app/api/bookings/${date}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch booking details');
